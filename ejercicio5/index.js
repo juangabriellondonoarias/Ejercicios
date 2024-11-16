@@ -25,7 +25,7 @@ switch (selecion_libros) {
 
 if (libroSelecionado) {
   let prestamodias = prompt(
-    "selecione el # de dias de prestamo debe estas entre 1 y 30"
+    "selecione el # de dias de prestamo debe estar entre 1 y 30"
   );
   let aux = prestamodias >= 1 && prestamodias <= 30;
   if (aux) {
